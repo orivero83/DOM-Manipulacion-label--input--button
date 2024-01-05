@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM input label button</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <section>
+        <div class="container-father">
+
+          <!--Vamos a crear de forma dinamica este bloque   
+            <div class="container1">
+                <label for="name">Cual es tu nombre ?</label>
+                <input type="text" id="name" placeholder="Ingrese su nombre" required>
+
+                <label for="lastName">Cual es tu apellido ?</label>
+                <input type="text" id="lastName" placeholder="Ingrese su apellido" required>
+
+                <button onclick="firstQuestion()">ok</button>
+            </div>
+          -->
+
+
+
+            <div class="container2">
+                <label for="nacionalidad">Cual es tu Nacionalidad ?</label>
+                <input type="text" id="nacionalidad" placeholder="Ingrese su Nacionalidad" required>
+
+                <button onclick="secondQuestion()">ok</button>
+            </div>
+
+            <div class="container3">
+                <label for="age">Cual es tu edad ?</label>
+                <input type="number" id="age" placeholder="Ingresa tu edad" required>
+
+                <button onclick="thirdQuestion()">ok</button>
+            </div>
+
+            <div class="message"></div>
+
+            <button class="messageButton" onclick="restartQuestion()">Restart</button>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
